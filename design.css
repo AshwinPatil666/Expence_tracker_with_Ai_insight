@@ -1,0 +1,26 @@
+/* Pori navbar ko ek line me lane ke liye aur space manage karne ke liye */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo left me aur menu right me chala jayega */
+  align-items: center; /* Logo aur text upar-niche se center ho jayenge */
+  background-color: oldlace; /* Blackish background (aap badal sakte hain) */
+  padding: 10px 20px; /* Navbar ke andar thodi jagah (padding) */
+}
+
+/* Right side wale menu items ko ek line me lane ke liye */
+.rnav {
+  display: flex;
+  gap: 20px; /* Har ek menu item ke beech me 20px ka gap */
+}
+
+/* Menu ke links/text ka style thoda accha dikhne ke liye */
+.rnav div {
+  color: orange; /* Text ka color white */
+  cursor: pointer; /* Mouse le jaane par haath ka nishana bane */
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.rnav div:hover {
+  color: #ffcc00;
+}
